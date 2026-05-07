@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mev-agentic-ai"
+version = "0.1.0"
+description = "Simulation-first research scaffold for Agentic MEV Arbitrage Lab"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Research Team"}]
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5", "mypy>=1.10"]
+rl = []
+llm = []
+data = []
+all = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+warn_unused_configs = true
+mypy_path = "src"

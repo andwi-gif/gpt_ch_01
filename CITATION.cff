@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Agentic MEV Arbitrage Lab"
+message: "Please cite this repository and related dissertation proposal."
+authors:
+  - family-names: "Faiz"
+    given-names: "Syahirul"
+version: 0.1.0
+date-released: 2026-05-07
