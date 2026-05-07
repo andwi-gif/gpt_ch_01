@@ -1,0 +1,7 @@
+offline_mode: true
+use_fixtures: true
+enable_live_providers: false
+dataset_version: v0.0.1
+block_range:
+  start: 100
+  end: 110

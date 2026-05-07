@@ -1,0 +1,6 @@
+objective: 1
+offline_mode: true
+candidate_path_count: 3
+trade_fraction_min: 0.001
+trade_fraction_max: 0.1
+latency_budget_ms: 100
