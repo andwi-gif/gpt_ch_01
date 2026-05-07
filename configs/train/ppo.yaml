@@ -1,0 +1,4 @@
+algorithm: ppo
+objective: 1
+offline_mode: true
+seed: 1

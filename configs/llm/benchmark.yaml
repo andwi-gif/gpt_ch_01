@@ -1,0 +1,4 @@
+offline_mode: true
+mock_model: true
+enable_live_llm: false
+tasks: [path, constraints, profit, explanation]

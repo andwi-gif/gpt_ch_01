@@ -1,0 +1,2 @@
+class RLNotReadyError(RuntimeError):
+    pass
